@@ -25,8 +25,8 @@
 SQLite 등을 통해 데이터를 관리하며 인텐트(Intent)를 통해 작은 데이터들을 공유한다면 콘텐츠 프로바이더는 음악, 사진등 용량이 큰 데이터들을 공유하는데 적합하다.
 
 ## 안드로이드 생명주기(Android LifeCycle)
-**onCreate() ▶ onStart() ▶ onResume() ▶ onPause() ▶ onStop() ▶ onDestroy순으로 실행.**
-**_상황에 따라 onRestart() 메소드가 호출되기도 한다._**
+**onCreate() ▶ onStart() ▶ onResume() ▶ onPause() ▶ onStop() ▶ onDestroy순으로 실행.**  
+**_상황에 따라 onRestart() 메소드가 호출되기도 한다._**  
 * **onCreate() :** 액티비티가 생성될 때 호출되며 UI 초기화에 사용된다.
 * **onRestart() :** 액티비티가 멈췄다가 다시 시작되기 바로전에 호출된다.
 * **onResume() :** 액티비티가 사용자와 상호작용하기 바로 전에 호출된다.
